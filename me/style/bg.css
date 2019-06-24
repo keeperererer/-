@@ -1,0 +1,43 @@
+body{
+	overflow: hidden;
+}
+img{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+.cover{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(64,70,111,0.5);
+	display: flex;
+	justify-content:center;
+	align-items:center;
+    color: #fff;
+}
+.center{
+	text-align: center;
+}
+span{
+	display: inline-block;
+	margin-bottom: 1em;
+	font-size: 6em;
+
+}
+ul li{
+	display: inline-block;
+    font-size: 2em;
+    border: 1px solid;
+    border-radius: 35%;
+    width: 15%;
+    height: 40px;
+    line-height: 40px;
+}
+ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+.animated{
+	animation-duration: 1.5s;
+}

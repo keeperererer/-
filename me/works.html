@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>作品栏目</title>
+<link href="https://cdn.bootcss.com/animate.css/3.7.0/animate.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="./style/fullPage.css">
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/fullPage.js/2.9.7/jquery.fullpage.js"></script>
+</head>
+<body>
+<a href="./index.html" class="return">返回</a>
+<div id="dowebok">
+		<div class="section section1">
+			<!-- <div class="page1">
+				<img src="./image/page-img1.jpg" alt="" class="page-img animated bounceInLeft">
+				<img src="./image/page-img2.jpg" alt="" class="page-img animated bounceInLeft">
+			</div> -->
+		</div>
+		<div class="section section2">
+			<!-- <div class="page2">
+				<img src="./image/page-img1.jpg" alt="" class="page-img animated bounceInLeft">
+				<img src="./image/page-img2.jpg" alt="" class="page-img animated bounceInLeft">
+			</div> -->
+		</div>
+		<div class="section section3">
+			<!-- <div class="page3">
+				<img src="./image/page-img1.jpg" alt="" class="page-img animated bounceInLeft">
+				<img src="./image/page-img2.jpg" alt="" class="page-img animated bounceInLeft">
+			</div> -->
+		</div>
+		<div class="section section4">
+			<!-- <div class="page4">
+				<img src="./image/page-img1.jpg" alt="" class="page-img animated bounceInLeft">
+				<img src="./image/page-img2.jpg" alt="" class="page-img animated bounceInLeft">
+			</div> -->
+		</div>
+</div>
+<script>
+$(function(){
+	$('#dowebok').fullpage({
+		'navigation': true,
+		'navigationTooltips':[
+			'page1',
+			'page2',
+			'page3',
+			'page4'
+		],
+		'continuousVertical':true
+	});
+});
+</script>
+</body>
+</html>
